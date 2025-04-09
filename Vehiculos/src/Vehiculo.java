@@ -2,7 +2,7 @@ public abstract class Vehiculo {
     protected int velocidadActual;
     protected int velocidadMaxima;
 
-    public Vehiculo(int velocidadActual, int velocidadMaxima){
+    protected Vehiculo(int velocidadActual, int velocidadMaxima){
         this.velocidadActual = velocidadActual;
         this.velocidadMaxima = velocidadMaxima;
     }
