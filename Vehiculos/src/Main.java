@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        Terrestre camioneta = new Terrestre(180, 4);
+        Terrestre camioneta = new Terrestre(50, 4);
         camioneta.acelerar(50);
         camioneta.frenar(20);
         camioneta.imprimir();
@@ -10,7 +10,7 @@ public class Main {
 
         System.out.println("----------");
 
-        Acuatico motoAcuatica = new Acuatico(120, 180);
+        Acuatico motoAcuatica = new Acuatico(50, 120);
         int velRecomendada = motoAcuatica.recomendarVelocidad(50);
         int rpmAcuatica = motoAcuatica.calcularRevolucionesMotor(300, 50);
 
